@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,4 +26,5 @@ namespace Marcin_Pawłowski_Lab3_ZD.Models
                 return Counter += 1;
             }
         }
+    }
 }
