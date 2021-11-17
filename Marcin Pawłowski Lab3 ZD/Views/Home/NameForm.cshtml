@@ -1,0 +1,16 @@
+﻿@model Marcin_Pawłowski_Lab3_ZD.Models.NameFormModel
+@{
+    ViewData["Title"] = "NameForm";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Dane z formularza</h1>
+    @Html.DisplayNameFor(model => model.Name):          @Html.DisplayFor(model => model.Name)
+    <br />
+
+    @Html.DisplayNameFor(model => model.Count):          @Html.DisplayFor(model => model.Count)
+
+</div>
+<br />
+<a href="/form1.html">Powrót do Form1 (HTML)</a>
+<br />
