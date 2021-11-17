@@ -33,5 +33,11 @@ namespace Marcin_Pawłowski_Lab3_ZD.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpPost]
+        public IActionResult NameForm(NameFormModel model)
+        {
+            return View(model);
+        }
     }
 }
